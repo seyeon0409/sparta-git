@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- Webpage Title -->
+    <title>주문하기</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+    <style>
+        body {
+            border-radius: 10px;
+            width: 500px;
+            margin: auto;
+            font-family: fantasy;
+        }
+
+        .opt {
+
+
+            height: 10;
+            width: 80%;
+
+        }
+
+        .button {
+            margin: auto;
+            width: 500px;
+            padding-left: 30%;
+        }
+
+
+        .ordimg {
+            width: 350px;
+            margin: auto;
+        }
+    </style>
+
+    <script>
+        function f1() {
+            let inputGroupSelect01 = $('#inputGroupSelect01').val();
+            let inputGroupSelect02 = $('#inputGroupSelect02').val();
+            let name = $('#name').val();
+            let address = $('#address').val();
+            let tel = $('#tel').val();
+
+            if (inputGroupSelect01 === '') {
+                alert('사이즈를 선택하세요');
+                $('#inputGroupSelect01').focus();
+            }
+            else if (inputGroupSelect02 === '') {
+                alert('수량을 선택하세요');
+                $('#inputGroupSelect02').focus();
+            }
+            else if (name === '') {
+                alert('이름을 입력하세요');
+                $('#name').focus();
+            }
+            else if (address === '') {
+                alert('주소를 입력하세요');
+                $('#address').focus();
+            }
+            else if (tel === '') {
+                alert('번호를 입력하세요');
+                $('#tel').focus();
+
+            }
+        }
+
+
+
+    </script>
+
+</head>
+
+<body>
+    <br>
+    <div class="ordimg">
+        <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRaEb_cwAuKCNE3OdjkUUXl_JTfSENTzkiU75FKXlLpcPPMYv35" />
+    </div>
+    <br>
+    <h2>T-Shirt</h2>
+    <h5>가격 : 20,000원/개</h5>
+    <h5>흰색 티셔츠</h5>
+    <hr>
+
+
+    <div class="orderform">
+
+        <h3>주문하기</h3>
+
+        <div class="opt">
+            <div class="option1" id="inputGroupSelect01">
+                <select class="custom-select" id="inputGroupSelect01">
+                    <option selected>사이즈를 선택하세요 </option>
+                    <option value="1">S</option>
+                    <option value="2">M</option>
+                    <option value="3">L</option>
+                </select>
+
+            </div>
+            <div class="option2" id="inputGroupSelect02">
+                <select class="custom-select" id="inputGroupSelect02">
+                    <option selected>수량을 선택하세요</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+
+            </div>
+        </div>
+        <p>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend" id="name">
+                    <span class="input-group-text" id="name">성함</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Default"
+                    aria-describedby="inputGroup-sizing-default">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend" id='address'>
+                    <span class="input-group-text" id="address">주소</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Default"
+                    aria-describedby="inputGroup-sizing-default">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend" id="tel">
+                    <span class="input-group-text" id="tel">전화번호</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Default"
+                    aria-describedby="inputGroup-sizing-default">
+            </div>
+
+
+    </div>
+    <p></p>
+
+    <div class="button">
+        <button class="btn btn-primary" type="submit" onclick="f1()">주문하기</button>
+    </div>
+</body>
+
+</html>
