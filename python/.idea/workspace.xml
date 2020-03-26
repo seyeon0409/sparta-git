@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="85a4929d-d027-4f13-9990-009a378027e8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ZQhE7TqYvnvills40YGDdTr7sb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings>
+        <option name="useSoftWraps" value="true" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Desktop\sparta-git\python" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.3주차숙제">
+    <configuration name="3주차숙제" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3주차숙제.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="review" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\USER\Desktop\sparta-git\python\3주차숙제.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.3주차숙제" />
+        <item itemvalue="Python.practice" />
+        <item itemvalue="Python.review" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85a4929d-d027-4f13-9990-009a378027e8" name="Default Changelist" comment="" />
+      <created>1584777111427</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584777111427</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2596" y="148" key="#.." timestamp="1585110823608">
+      <screen x="1920" y="3" width="1920" height="1040" />
+    </state>
+    <state x="2596" y="148" key="#../0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1585110823608" />
+    <state x="2199" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585110780227">
+      <screen x="1920" y="3" width="1920" height="1040" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.3.1920.1040@0.0.1536.824" timestamp="1585110130435" />
+    <state x="2199" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1585110780227" />
+    <state x="2641" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585110711265">
+      <screen x="1920" y="3" width="1920" height="1040" />
+    </state>
+    <state x="2641" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1585110711265" />
+    <state width="1899" height="227" key="GridCell.Tab.0.bottom" timestamp="1585203367983">
+      <screen x="1920" y="3" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.3.1920.1040@0.0.1536.824" timestamp="1585201761535" />
+    <state width="1899" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1585203367983" />
+    <state width="1515" height="236" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584783829422" />
+    <state width="1899" height="227" key="GridCell.Tab.0.center" timestamp="1585203367983">
+      <screen x="1920" y="3" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="227" key="GridCell.Tab.0.center/0.0.1536.824/1920.3.1920.1040@0.0.1536.824" timestamp="1585201761535" />
+    <state width="1899" height="227" key="GridCell.Tab.0.center/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1585203367983" />
+    <state width="1515" height="236" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584783829422" />
+    <state width="1899" height="227" key="GridCell.Tab.0.left" timestamp="1585203367982">
+      <screen x="1920" y="3" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="227" key="GridCell.Tab.0.left/0.0.1536.824/1920.3.1920.1040@0.0.1536.824" timestamp="1585201761535" />
+    <state width="1899" height="227" key="GridCell.Tab.0.left/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1585203367982" />
+    <state width="1515" height="236" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584783829422" />
+    <state width="1899" height="227" key="GridCell.Tab.0.right" timestamp="1585203367983">
+      <screen x="1920" y="3" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="227" key="GridCell.Tab.0.right/0.0.1536.824/1920.3.1920.1040@0.0.1536.824" timestamp="1585201761535" />
+    <state width="1899" height="227" key="GridCell.Tab.0.right/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1585203367983" />
+    <state width="1515" height="236" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584783829422" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1585110795624">
+      <screen x="1920" y="3" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1585110795624" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1585110795624">
+      <screen x="1920" y="3" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1585110795624" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1585110795624">
+      <screen x="1920" y="3" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1585110795624" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1585110795624">
+      <screen x="1920" y="3" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1585110795624" />
+    <state x="277" y="54" key="SettingsEditor" timestamp="1584781915762">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584781915762" />
+    <state x="2494" y="301" key="com.intellij.ide.util.TipDialog" timestamp="1585036659379">
+      <screen x="1920" y="3" width="1920" height="1040" />
+    </state>
+    <state x="459" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.3.1920.1040@0.0.1536.824" timestamp="1585035755303" />
+    <state x="2494" y="301" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1585036659379" />
+    <state x="459" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584777147666" />
+    <state x="2684" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585110791506">
+      <screen x="1920" y="3" width="1920" height="1040" />
+    </state>
+    <state x="2684" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1585110791506" />
+  </component>
+</project>
