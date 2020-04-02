@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- Webpage Title -->
+    <title>주문하기</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+    <style>
+        body {
+            border-radius: 10px;
+            width: 500px;
+            margin: auto;
+            font-family: fantasy;
+        }
+
+        .opt {
+            height: 10;
+            width: 80%;
+
+        }
+
+        .button {
+            margin: auto;
+            width: 500px;
+            padding-left: 30%;
+        }
+
+
+        .ordimg {
+            width: 350px;
+            margin: auto;
+        }
+    </style>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('#orders-box').html('');
+            listing();
+        });
+
+        function f1() {
+
+            let inputGroupSelect01 = $('#inputGroupSelect01').val();
+            let name = $('#name').val();
+            let address = $('#address').val();
+            let tel = $('#tel').val();
+
+            // console.log(inputGroupSelect01)
+            // console.log(inputGroupSelect02)
+            // console.log(name)
+            // console.log(address)
+            // console.log(tel)
+
+            if (inputGroupSelect01 == "수량을 선택하세요") {
+                alert('수량을 선택하세요');
+                $('#inputGroupSelect01').focus();
+                return
+            }
+
+            else if (name == '') {
+                alert('이름을 입력하세요');
+                $('#name').focus();
+                return
+            }
+
+            else if (address == '') {
+                alert('주소를 입력하세요');
+                $('#address').focus();
+                return
+            }
+
+            else if (tel == '') {
+                alert('번호를 입력하세요');
+                $('#tel').focus();
+                return
+            }
+
+
+
+
+            $.ajax({
+                type: "POST",
+                url: "/templates",
+                data: {
+                    inputGroupSelect01_give: inputGroupSelect01,
+                    name_give: name,
+                    address_give: address,
+                    tel_give: tel
+                },
+                success: function (response) {
+                    if (response['result'] == 'success') {
+                        alert(response['msg']);
+                        window.location.reload();
+                    }
+                }
+            })
+        }
+
+        function listing() {
+            // 1. 리뷰 목록을 서버에 요청하기
+            // 2. 요청 성공 여부 확인하기
+            // 3. 요청 성공했을 때 리뷰를 올바르게 화면에 나타내기
+            $.ajax({
+                type: "GET",
+                url: "/templates",
+                data: {},
+                success: function (response) {
+                    if (response['result'] == 'success') {
+
+                        let orders = response['data']
+                        for (let i = 0; i < orders.length; i++) {
+                            let review = reviews[i]
+                            make_card(orders[i]['inputGroupSelect01'], orders[i]['name'], orders[i]['address'], orders[i]['tel'])
+                        }
+                    } else {
+                        alert('불러오지 못했습니다');
+                    }
+                }
+            });
+        }
+
+        function make_card(inputGroupSelect01, name, address, tel) {
+            let temp_html = '<tr>\
+                                <td>'+ inputGroupSelect01 + '</td>\
+                                <td>'+ name + '</td>\
+                                <td>'+ address + '</td>\
+                                <td>'+ tel + '</td>\
+                                </tr>';
+            $('#orders-box').append(temp_html);
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <br>
+    <div class="ordimg">
+        <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRaEb_cwAuKCNE3OdjkUUXl_JTfSENTzkiU75FKXlLpcPPMYv35" />
+    </div>
+    <br>
+    <h2>T-Shirt</h2>
+    <h5>가격 : 20,000원/개</h5>
+    <h5>흰색 티셔츠</h5>
+    <hr>
+
+
+    <div class="orderform">
+
+        <h3>주문하기</h3>
+
+        <div class="opt">
+            <div class='inputGroupSelect01'>
+                <select class="custom-select">
+                    <option selected>수량을 선택하세요</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+
+            </div>
+        </div>
+        <p>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend" id="name">
+                    <span class="input-group-text" id="name">성함</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Default"
+                    aria-describedby="inputGroup-sizing-default">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend" id='address'>
+                    <span class="input-group-text" id="address">주소</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Default"
+                    aria-describedby="inputGroup-sizing-default">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend" id="tel">
+                    <span class="input-group-text" id="tel">전화번호</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Default"
+                    aria-describedby="inputGroup-sizing-default">
+            </div>
+
+            <p></p>
+
+            <div class="button">
+                <button class="btn btn-primary" type="submit" onclick="f1()"> 주문하기</button>
+            </div>
+
+            <div class="orders-box">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">수량</th>
+                            <th scope="col">이름</th>
+                            <th scope="col">주소</th>
+                            <th scope="col">전화번호</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+</body>
+
+</html>
