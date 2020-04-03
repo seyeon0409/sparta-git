@@ -71,25 +71,25 @@
             // console.log(address)
             // console.log(tel)
 
-            if (inputGroupSelect01 == "수량을 선택하세요") {
+            if (inputGroupSelect01 === '수량을 선택하세요') {
                 alert('수량을 선택하세요');
                 $('#inputGroupSelect01').focus();
                 return
             }
 
-            else if (name == '') {
+            else if (name === '') {
                 alert('이름을 입력하세요');
                 $('#name').focus();
                 return
             }
 
-            else if (address == '') {
+            else if (address === '') {
                 alert('주소를 입력하세요');
                 $('#address').focus();
                 return
             }
 
-            else if (tel == '') {
+            else if (tel === '') {
                 alert('번호를 입력하세요');
                 $('#tel').focus();
                 return
@@ -170,39 +170,38 @@
 
         <h3>주문하기</h3>
 
-        <div class="opt">
-            <div class='inputGroupSelect01'>
-                <select class="custom-select">
-                    <option selected>수량을 선택하세요</option>
+        <div class="opt" >
+            <div class="option1">                
+                <select class="custom-select" id="inputGroupSelect01">
+                    <option selected> 수량을 선택하세요 </option>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
-                    <option value="4">4</option>
                 </select>
-
-            </div>
+            </div>  
         </div>
+
         <p>
             <div class="input-group mb-3">
-                <div class="input-group-prepend" id="name">
-                    <span class="input-group-text" id="name">성함</span>
+                <div class="input-group-prepend">
+                    <span class="input-group-text">성함</span>
                 </div>
                 <input type="text" class="form-control" aria-label="Default"
-                    aria-describedby="inputGroup-sizing-default">
+                    aria-describedby="inputGroup-sizing-default" id="name">
             </div>
             <div class="input-group mb-3">
-                <div class="input-group-prepend" id='address'>
-                    <span class="input-group-text" id="address">주소</span>
+                <div class="input-group-prepend">
+                    <span class="input-group-text">주소</span>
                 </div>
                 <input type="text" class="form-control" aria-label="Default"
-                    aria-describedby="inputGroup-sizing-default">
+                    aria-describedby="inputGroup-sizing-default" id="address">
             </div>
             <div class="input-group mb-3">
-                <div class="input-group-prepend" id="tel">
-                    <span class="input-group-text" id="tel">전화번호</span>
+                <div class="input-group-prepend">
+                    <span class="input-group-text">전화번호</span>
                 </div>
                 <input type="text" class="form-control" aria-label="Default"
-                    aria-describedby="inputGroup-sizing-default">
+                    aria-describedby="inputGroup-sizing-default" id="tel">
             </div>
 
             <p></p>

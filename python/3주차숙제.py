@@ -14,9 +14,10 @@ soup = BeautifulSoup(data.text, 'html.parser')
 # (입맛에 맞게 코딩)
 #############################
 
-info = (soup.select('tbody > .list'))
+info = soup.select('tbody > .list')
 title = soup.select('.title.ellipsis')
 artist = soup.select('.artist.ellipsis')
 
+
 for i in range(len(info)):
-    print(i+1, title[i].text, artist[i].text )
+    print(i+1, title[i].text.strip(), artist[i].text.strip())

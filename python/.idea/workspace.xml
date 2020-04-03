@@ -10,6 +10,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -25,6 +26,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -38,11 +40,15 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Desktop\sparta-git\python" />
+      <recent name="C:\Users\USER\Desktop\sparta-git\python\templates\static" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\USER\Desktop\sparta-git\python" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.3주차숙제">
+  <component name="RunManager" selected="Python.homework4">
     <configuration name="3주차숙제" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -64,7 +70,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="4주차숙제" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,7 +82,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4주차숙제.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="review" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,7 +103,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\USER\Desktop\sparta-git\python\3주차숙제.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="homework4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mongo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mongo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,9 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.homework4" />
+        <item itemvalue="Python.4주차숙제" />
         <item itemvalue="Python.3주차숙제" />
-        <item itemvalue="Python.practice" />
-        <item itemvalue="Python.review" />
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.mongo" />
       </list>
     </recent_temporary>
   </component>
@@ -150,34 +200,35 @@
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.3.1920.1040@0.0.1536.824" timestamp="1585110130435" />
     <state x="2199" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1585110780227" />
-    <state x="2641" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585110711265">
-      <screen x="1920" y="3" width="1920" height="1040" />
+    <state x="577" y="255" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585378017222">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2641" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1585110711265" />
-    <state width="1899" height="227" key="GridCell.Tab.0.bottom" timestamp="1585203367983">
-      <screen x="1920" y="3" width="1920" height="1040" />
+    <state x="577" y="255" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1585378017222" />
+    <state width="1515" height="231" key="GridCell.Tab.0.bottom" timestamp="1585878188840">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.3.1920.1040@0.0.1536.824" timestamp="1585201761535" />
-    <state width="1899" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1585203367983" />
-    <state width="1515" height="236" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584783829422" />
-    <state width="1899" height="227" key="GridCell.Tab.0.center" timestamp="1585203367983">
-      <screen x="1920" y="3" width="1920" height="1040" />
+    <state width="1515" height="231" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.3.1920.1040@0.0.1536.824" timestamp="1585878188840" />
+    <state width="1899" height="415" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1585204145885" />
+    <state width="1515" height="231" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585572675590" />
+    <state width="1515" height="231" key="GridCell.Tab.0.center" timestamp="1585878188839">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="227" key="GridCell.Tab.0.center/0.0.1536.824/1920.3.1920.1040@0.0.1536.824" timestamp="1585201761535" />
-    <state width="1899" height="227" key="GridCell.Tab.0.center/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1585203367983" />
-    <state width="1515" height="236" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584783829422" />
-    <state width="1899" height="227" key="GridCell.Tab.0.left" timestamp="1585203367982">
-      <screen x="1920" y="3" width="1920" height="1040" />
+    <state width="1515" height="231" key="GridCell.Tab.0.center/0.0.1536.824/1920.3.1920.1040@0.0.1536.824" timestamp="1585878188839" />
+    <state width="1899" height="415" key="GridCell.Tab.0.center/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1585204145885" />
+    <state width="1515" height="231" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585572675589" />
+    <state width="1515" height="231" key="GridCell.Tab.0.left" timestamp="1585878188838">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="227" key="GridCell.Tab.0.left/0.0.1536.824/1920.3.1920.1040@0.0.1536.824" timestamp="1585201761535" />
-    <state width="1899" height="227" key="GridCell.Tab.0.left/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1585203367982" />
-    <state width="1515" height="236" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584783829422" />
-    <state width="1899" height="227" key="GridCell.Tab.0.right" timestamp="1585203367983">
-      <screen x="1920" y="3" width="1920" height="1040" />
+    <state width="1515" height="231" key="GridCell.Tab.0.left/0.0.1536.824/1920.3.1920.1040@0.0.1536.824" timestamp="1585878188838" />
+    <state width="1899" height="415" key="GridCell.Tab.0.left/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1585204145885" />
+    <state width="1515" height="231" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585572675587" />
+    <state width="1515" height="231" key="GridCell.Tab.0.right" timestamp="1585878188840">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="227" key="GridCell.Tab.0.right/0.0.1536.824/1920.3.1920.1040@0.0.1536.824" timestamp="1585201761535" />
-    <state width="1899" height="227" key="GridCell.Tab.0.right/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1585203367983" />
-    <state width="1515" height="236" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584783829422" />
+    <state width="1515" height="231" key="GridCell.Tab.0.right/0.0.1536.824/1920.3.1920.1040@0.0.1536.824" timestamp="1585878188840" />
+    <state width="1899" height="415" key="GridCell.Tab.0.right/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1585204145885" />
+    <state width="1515" height="231" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585572675589" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1585110795624">
       <screen x="1920" y="3" width="1920" height="1040" />
     </state>
@@ -194,16 +245,16 @@
       <screen x="1920" y="3" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1585110795624" />
-    <state x="277" y="54" key="SettingsEditor" timestamp="1584781915762">
+    <state x="241" y="109" key="SettingsEditor" timestamp="1585376169853">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584781915762" />
-    <state x="2494" y="301" key="com.intellij.ide.util.TipDialog" timestamp="1585036659379">
-      <screen x="1920" y="3" width="1920" height="1040" />
+    <state x="241" y="109" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585376169853" />
+    <state x="459" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585878150597">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="459" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.3.1920.1040@0.0.1536.824" timestamp="1585035755303" />
+    <state x="459" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.3.1920.1040@0.0.1536.824" timestamp="1585878150597" />
     <state x="2494" y="301" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1585036659379" />
-    <state x="459" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584777147666" />
+    <state x="459" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585374136531" />
     <state x="2684" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585110791506">
       <screen x="1920" y="3" width="1920" height="1040" />
     </state>
