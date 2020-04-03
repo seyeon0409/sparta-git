@@ -29,7 +29,7 @@ def write_review():
    print(tel)
 
 
-   db.reviewCollection.insert_one({
+   db.orderCollection.insert_one({
       'inputGroupSelect01': inputGroupSelect01,      
       'name': name,
       'address': address,
