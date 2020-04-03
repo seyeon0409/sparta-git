@@ -12,11 +12,8 @@ def home():
 
 ## API 역할을 하는 부분
 @app.route('/templates', methods=['POST'])
-def write_review():
-   # 1. 클라이언트가 준 title, author, review 가져오기.
-   # 2. DB에 정보 삽입하기
-   # 3. 성공 여부 & 성공 메시지 반환하기
-
+def write_order():
+ 
    inputGroupSelect01 = request.form['inputGroupSelect01_give']
    name = request.form['name_give']
    address = request.form['address_give']
