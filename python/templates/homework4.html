@@ -130,7 +130,7 @@
                         let orders = response['orders'];
                         console.log(orders);
                         for (let i = 0; i < orders.length; i++) {
-                            let review = reviews[i]
+                            let order = orders[i]
                             make_card(orders[i]['inputGroupSelect01'], orders[i]['name'], orders[i]['address'], orders[i]['tel'])
                         }
                     } else {
