@@ -1,0 +1,47 @@
+import imaplib
+import email
+from email.utils import parseaddr
+from email.header import decode_header
+
+imap_server = imaplib.IMAP4_SSL(host='imap.gmail.com', port='993')
+
+my_add = 'seyeon0409@gmail.com'
+my_pw = '.......'
+imap_server.login(user=my_add, password=my_pw)
+
+mailbox = "INBOX"
+mailbox_code = imap_server.select(mailbox)
+
+code1, mail_all = imap_server.search(None, 'ALL')
+
+result = {}
+mail_ids = mail_all[0].spilt()
+print(mail_ids)
+
+for mad in mail_ids:
+        code2, data = imap_server.fetch(mid, '(RFC822)')
+        mail ={}
+
+msg = email.message_from_string(data[0][1].decode('utf-8'))
+
+mail['From'] = parseaddr(msg['From'])[1]
+mail['To'] = parseaddr(['To'])[1]
+
+subject = decode_header(msg['Subject'])
+mail['Subject'] = subject[0][0].decode('utf-8')
+
+if msg.is_multipart():
+    for part in msg.walk():
+        if part.get_content_type() == 'text/plain':
+            body = part.get_payload(decode=True)
+            body = body.decode()
+else:
+    body = msg.get_payload()
+
+mail['Body'] = body
+
+result[int(mid.decode('utf-8'))] = mail
+
+print(result)
+
+imap_server.close()
